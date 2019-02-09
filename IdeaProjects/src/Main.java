@@ -16,16 +16,18 @@ public class Main {
 
         switch (sign) {
             case "+":
+                System.out.println("= ");
                 System.out.println(number1 + number2);
                 break;
             case "*":
-                System.out.println("= " + number1 * number2);
+                System.out.println("= "+ number1 * number2);
                 break;
             case "/":
 
 
                 if (number2 != 0) {
-                    System.out.println(number1 / number2);
+
+                    System.out.println("="+number1 / number2);
                 }
 
                 while (number2 == 0) {
@@ -42,7 +44,7 @@ public class Main {
 
                 break;
             case "-":
-
+                System.out.println("= ");
                 System.out.println(number1 - number2);
                 break;
 
