@@ -1,14 +1,13 @@
 package com.company;
 
 import java.util.ArrayList;
-import java.util.List;
 import java.util.Scanner;
 
 public class Main {
 
     public static void main(String[] args) {
         boolean repeat = true;
-        List<Flower> list = new ArrayList<>();
+        ArrayList<Flower> list = new ArrayList<>();
 
         while (repeat) {
             System.out.println("1Ввести данные цветка");
@@ -35,9 +34,9 @@ public class Main {
                     }
                     break;
                 case 3:
-                    double sum=0;
-                    for (Flower bouquet:list){
-                        sum+=bouquet.getPrice();
+                    double sum = 0;
+                    for (Flower bouquet : list) {
+                        sum += bouquet.getPrice();
                     }
                     System.out.println("Стоимость буккета из предложенных цветов\n");
                     System.out.println(sum);
