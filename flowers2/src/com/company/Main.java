@@ -27,36 +27,25 @@ public class Main {
                     System.out.println("Введите цену");
                     double price = Double.parseDouble(scanner1.nextLine());
 
-
                     list.add(new Flower(price, color, name));
                     break;
                 case 2:
                     for (Flower flower : list) {
                         System.out.println(flower.getInfo());
-
                     }
                     break;
                 case 3:
-
                     double sum=0;
                     for (Flower bouquet:list){
                         sum+=bouquet.getPrice();
                     }
                     System.out.println("Стоимость буккета из предложенных цветов\n");
                     System.out.println(sum);
-
-
-
-
-
-
                     break;
                 case 4:
-
                     repeat = false;
                     System.out.println("выход");
                     break;
-
                 default:
                     System.out.println("ошибка");
             }
