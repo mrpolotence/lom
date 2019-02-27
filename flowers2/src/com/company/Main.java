@@ -38,7 +38,7 @@ public class Main {
                     for (Flower bouquet : list) {
                         sum += bouquet.getPrice();
                     }
-                    System.out.println("Стоимость буккета из предложенных цветов\n");
+                    System.out.println("Стоимость букета из предложенных цветов\n");
                     System.out.println(sum);
                     break;
                 case 4:
